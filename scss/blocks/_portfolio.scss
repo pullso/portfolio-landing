@@ -13,6 +13,7 @@
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    font-family: 'Gotham Pro', sans-serif;
   }
 
   &__img {
@@ -32,7 +33,9 @@
     margin-bottom: 30px;
     max-width: 360px;
     max-height: 360px;
-
+    a {
+      text-decoration: none;
+    }
     &-title {
       color: #000000;
       font-size: 16px;
@@ -41,12 +44,13 @@
       text-align: center;
 
       &:hover {
-        color: #0052c2;
+        //color: #0052c2;
+        text-decoration: underline;
       }
     }
 
     &-descr {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Gotham Pro', sans-serif;
       //line-height: 24px;
     }
   }
