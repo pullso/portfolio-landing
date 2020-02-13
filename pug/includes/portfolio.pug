@@ -1,0 +1,33 @@
+section.portfolio
+  .container
+    h2.portfolio__title(class="wow fadeIn" data-wow-delay="0.5s") Портфолио
+
+    .portfolio__items
+
+
+      mixin item(title="default",descr,img_src,href)
+        .portfolio__item(class="wow slideInUp")
+          .portfolio__item-wrapper
+            a(href=href  target="_blank" )
+              img(src=img_src, alt="image").portfolio__img
+            a(href=href  target="_blank"  )
+              h3.portfolio__item-title() !{title}
+            .portfolio__item-descr() !{descr}
+
+
+      +item("Лендинг для Юр.компании","Верстка лендинга с слайдером и формой обратной связи.Сделана мобильная адаптация. <hr> Использовал HTML, Flex,Scss, jQuery, Slick, FancyBox.",'/img/portfolio/1.png','https://pullso.github.io/projects/landing_flex/')
+
+      +item("Разработка этого сайта-портфолио","Разработка идеи, дизайна, верстка, создание видеофона.Сделана мобильная адаптация. <hr> Использовал Pug, Flex, Scss, WOW.js, Animate.css,  Font-Awesome, Parcel.",'/img/portfolio/7.png','https://pullso.github.io/')
+
+      +item("Лендинг для UBER","Верстка лендинга для UBER. Сделана мобильная адаптация. <br> <hr> Использовал HTML, Bootstrap, Sass.",'/img/portfolio/2.png','https://pullso.github.io/projects/Uber_bootstrap/src/')
+
+      +item("Каталог подбора пульсометров","Cайт по продаже пульсометров с слайдером и каталогом (без мобильной адаптации). <br> <hr> Использовал HTML, Scss, Slick, Validate, WOW.js",'img/portfolio/3.png','https://pullso.github.io/projects/Pulse_flex/dist')
+
+      +item("Сайт по Його-турам в Индию","Создание на сайте вкладок, слайдера фотографий, таймера, калькулятора<hr> Использовал HTML, CSS, Bootstrap, JS ",'/img/portfolio/5.png','https://pullso.github.io/projects/yoga_js/')
+
+
+      +item("Лединг для вебинара по WordPress","Верстка простого проекта для  приглашения на вебинар по Wordpress.  <hr> Использовал HTML и CSS",'/img/portfolio/6.png','https://pullso.github.io/projects/Wordpress/')
+
+
+      +item("Приложение: Список задач","Простое мобильное приложение, работающее в браузере без перезагрузок(SPA)<hr> Использовал HTML, CSS, Vue.js",'/img/portfolio/4.png','https://pullso.github.io/projects/vue-todo/')
+
