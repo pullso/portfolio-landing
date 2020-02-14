@@ -95,6 +95,14 @@
       margin-bottom: 20px;
     }
   }
+
+  .portfolio {
+    &__item {
+      &_hide {
+        display: none;
+      }
+    }
+  }
 }
 
 @media (max-width: 700px) {

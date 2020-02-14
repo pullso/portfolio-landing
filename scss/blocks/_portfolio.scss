@@ -7,6 +7,7 @@
   //padding-bottom: 100px;
   &__title {
     @include title(40px);
+    //font-family: 'Gotham Pro', sans-serif;
   }
   &__items {
     display: flex;
