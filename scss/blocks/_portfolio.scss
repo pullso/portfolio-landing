@@ -1,6 +1,7 @@
 @import 'mixins';
 
-.portfolio {
+.portfolio,
+.portfolio__serts {
   min-height: 666px;
   display: flex;
   //padding-top: 70px;
@@ -11,7 +12,7 @@
   }
   &__items {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
     font-family: 'Gotham Pro', sans-serif;
@@ -34,6 +35,7 @@
     margin-bottom: 30px;
     max-width: 360px;
     max-height: 360px;
+
     a {
       text-decoration: none;
     }
@@ -52,6 +54,7 @@
 
     &-descr {
       font-family: 'Gotham Pro', sans-serif;
+
       //line-height: 24px;
     }
   }

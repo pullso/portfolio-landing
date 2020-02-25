@@ -3,12 +3,13 @@
     max-width: 1000px;
   }
   .portfolio__item {
-    max-width: 290px;
+    max-width: 300px;
   }
   .portfolio__item-descr {
     padding-left: 20px;
   }
-  &__title {
+  .portfolio__title {
     @include title(42px);
+    font-family: 'Playfair Display', serif;
   }
 }
