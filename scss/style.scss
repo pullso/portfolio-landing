@@ -1,9 +1,9 @@
+@import 'blocks/mixins';
 @import 'blocks/normalize';
 @import 'blocks/header';
 @import 'blocks/portfolio';
-@import 'blocks/media';
+//@import 'blocks/media';
 @import 'blocks/advantages';
-@import 'blocks/mixins';
 @import 'blocks/footer';
 //font-family: 'Roboto Condered', sans-serif;
 
@@ -31,4 +31,23 @@ body {
     url('../fonts/GothamPro.woff') format('woff'), url('../fonts/GothamPro.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+
+#toTop {
+  z-index: 999;
+  width: 40px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  border-radius: 3px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+  color: #000;
 }

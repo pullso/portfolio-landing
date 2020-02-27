@@ -4,12 +4,13 @@ header.header
     .container
       //- .overlay
       .header__wrapper
+        <div id="toTop"><i class="fa fa-chevron-up"></i></div>
         .header__photo(data-wow-iteration="10" class="wow pulse" data-wow-delay="2.5s" data-wow-duration="3s")
           img(src="/img/header__photo.jpeg", alt="my photo" class="wow bounceInUp")
         h1.header__title(class="wow bounceInLeft" data-wow-delay="0.5s") Павел Дубицкий
         .header__subtitle(class="wow bounceInRight" data-wow-delay="1s").
-          Верстка сайтов и Front-End разработка с применением <br>
-          HTML5 CSS3 Pug Scss|Sass JS jQuery Vue.js
+          <hr>Верстка сайтов и Front-End разработка<hr>   <span>  с применением <br>
+          HTML5 CSS3 Pug Scss|Sass JS jQuery Vue.js </span>
 
         .header__links
           ul
@@ -26,7 +27,7 @@ header.header
               a(href="https://t-do.ru/pullso"  target="_blank" class="wow rollIn" data-wow-delay="1.7s")
                 <i class="fa fa-telegram fa-inverse fa-3x"></i>
         .header__arrow
-          i(class="fa fa-chevron-down" class="wow fadeInDown" data-wow-delay="2s" data-wow-iteration="20")
+          i(class="fa fa-chevron-down" class="wow fadeOutDown" data-wow-delay="3s" data-wow-iteration="20" data-wow-duration="2s")
     <video loop="" muted="" autoplay="" poster="/img/video/Words.jpg" class="fullscreen-bg__video">
         <source src="/img/video/Words2.mp4" type="video/mp4">
         <source src="/img/video/Words.webm" type="video/webm">

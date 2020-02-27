@@ -7,6 +7,9 @@
   min-height: 250px;
   max-height: 420px;
   padding-bottom: 20px;
+  @include _768 {
+    padding-top: 10px;
+  }
 
   &__links {
     font-family: 'Gotham Pro', sans-serif;
@@ -46,10 +49,20 @@
   }
   &__item {
     width: 282px;
+    @include _768 {
+      margin: 0 auto;
+      margin-bottom: 20px;
+      text-align: center;
+    }
   }
   &__items {
+    margin-top: 0;
     display: flex;
     justify-content: space-between;
+    @include _768 {
+      flex-direction: column;
+      justify-content: center;
+    }
   }
   &__btn {
     width: 262px;
