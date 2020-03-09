@@ -1,4 +1,12 @@
 .header {
+  .progress {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 4px;
+    background-color: rgb(1, 93, 221);
+  }
   //max-height: 1050px;
   //height: 100vh;
   //background-size: 100% 100%;
