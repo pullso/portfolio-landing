@@ -3,7 +3,7 @@
 @import 'blocks/header';
 @import 'blocks/portfolio';
 //@import 'blocks/media';
-@import 'blocks/advantages';
+@import 'blocks/portfolio-serts';
 @import 'blocks/footer';
 //font-family: 'Roboto Condered', sans-serif;
 
@@ -14,6 +14,7 @@
 body {
   font-family: 'Playfair Display', serif;
   font-size: 14px;
+  overflow-x: hidden;
 }
 
 .container {
